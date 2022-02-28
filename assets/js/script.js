@@ -8,3 +8,28 @@
 //loop through each time block and check each timeblock, comparing each hour (is present less than 13 or greater than 13)
 //parseInt(moment().format("HH"));
 //auditevent function to check time stuff see photo
+
+console.log("asfdfgsdf");
+var presentTime = moment();
+
+// var `hr${i}` = document.querySelector(`#${i}-text`);
+
+var hr9 = document.querySelector("#text-9");
+console.log(hr9);
+var hr10 = document.querySelector("#text-10");
+var hr11 = document.querySelector("#text-11");
+var hr12 = document.querySelector("#text-12");
+var hr13 = document.querySelector("#text-13");
+var hr14 = document.querySelector("#text-14");
+var hr15 = document.querySelector("#text-15");
+var hr16 = document.querySelector("#text-16");
+var hr17 = document.querySelector("#text-17");
+
+
+var textAreaHandler = function() {
+    h9.addEventListener("click", setText);
+}
+
+var setText = function() {
+    h9.textContent = "asdfdfgsdf";
+};
